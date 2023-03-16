@@ -1,0 +1,23 @@
+﻿@model TicariOtomasyonProje.Models.SalePageModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @foreach (var book in Model.Book)
+    {
+        <p>@book.BookName</p>
+    }
+    @foreach (var book in Model.Author)
+    {
+        <p>@book.AuthorSurname</p>
+    }
+</body>
+</html>

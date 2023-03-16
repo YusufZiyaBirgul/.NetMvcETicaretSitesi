@@ -1,0 +1,26 @@
+﻿
+.sum-cost {
+    width: 100%;
+    height: 200px;
+    background-color: wheat;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    display: inline-block;
+}
+
+    .sum-cost button {
+    margin-left:120px;
+    }
+
+.sum-table {
+    width: 350px;
+    height: 200px;
+    background-color: black;
+    margin-left: 1050px;
+    text-align: center;
+    
+}
+
+.sum-label {
+    color: wheat;
+}

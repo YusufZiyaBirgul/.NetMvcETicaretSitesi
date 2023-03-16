@@ -1,0 +1,49 @@
+﻿@model EntityLayer.Concrate.Personnel
+@{
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<h2>Personel Bilgileri</h2>
+<br />
+@using (Html.BeginForm("AddPersonnel", "Personnel", FormMethod.Post))
+{
+<div class="form-group">
+    @Html.Label("Personel Ad:")
+    @Html.TextBoxFor(x => x.PersonelName, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel Soyad:")
+    @Html.TextBoxFor(x => x.PersonelSurname, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel TC:")
+    @Html.TextBoxFor(x => x.PersonelTC, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel Adres:")
+    @Html.TextAreaFor(x => x.AddressDetails, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel Şifre:")
+    @Html.TextAreaFor(x => x.PersonelPassword, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel Rol:")
+    @Html.TextBoxFor(x => x.PersonelRole, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success" id="alert">Kaydet</button>
+    <script>
+        $('#alert').click(function () {
+
+            swal({
+                title: "Good job!",
+                text: "You clicked the button!",
+                icon: "success",
+                button: "Aww yiss!",
+            });
+
+        });
+    </script>
+</div>
+
+}
+

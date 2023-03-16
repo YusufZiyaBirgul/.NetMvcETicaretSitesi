@@ -1,0 +1,34 @@
+﻿@model EntityLayer.Concrate.Personnel
+@{
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<h2>Bilgileri Güncelle</h2>
+@using (Html.BeginForm("UdpatePersonnel", "Personnel", FormMethod.Post))
+{
+<div class="form-group">
+
+    @Html.HiddenFor(x => x.PersonelID)
+    <br />
+    @Html.Label("Personel Ad:")
+    @Html.TextBoxFor(x => x.PersonelName, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel Soyad:")
+    @Html.TextBoxFor(x => x.PersonelSurname, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel TC:")
+    @Html.TextBoxFor(x => x.PersonelTC, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel Adres:")
+    @Html.TextBoxFor(x => x.AddressDetails, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel Şifre:")
+    @Html.TextBoxFor(x => x.PersonelPassword, new { @class = "form-control" })
+    <br />
+    @Html.Label("Personel Rol:")
+    @Html.TextBoxFor(x => x.PersonelRole, new { @class = "form-control" })
+    <br />
+
+</div>
+    <button class="btn btn-success">Güncelle</button>
+}

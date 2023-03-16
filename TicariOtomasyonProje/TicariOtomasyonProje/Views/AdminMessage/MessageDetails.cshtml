@@ -1,0 +1,71 @@
+﻿@model EntityLayer.Concrate.Message
+
+@{
+    ViewBag.Title = "MessageDetails";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+
+<body class="hold-transition sidebar-mini">
+    <!-- Content Header (Page header) -->
+    <br />
+    <h1 style="text-align:center">Mesaj İçeriği</h1>
+    <br />
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                @Html.Action("MessageMenu", "AdminMessage")
+                <!-- /.col -->
+                <div class="col-md-9">
+                    <div class="card card-primary card-outline">
+                        <div class="card-header">
+                            <h3 class="card-title"> @Html.DisplayFor(x => x.Subject)</h3>
+                            <div class="card-tools">
+                                <a href="#" class="btn btn-tool" data-toggle="tooltip" title="Previous"><i class="fas fa-chevron-left"></i></a>
+                                <a href="#" class="btn btn-tool" data-toggle="tooltip" title="Next"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+
+                        <div class="card-body p-0">
+                            <div class="mailbox-read-info">
+
+                                <h6>
+                                    <strong> @Html.DisplayFor(x => x.SenderMail)</strong>
+
+                                </h6>
+                                <h6>
+                                    15 Feb. 2015 11:03 PM
+                                </h6>
+                                <h6>
+                                    <strong>Kime: @Html.DisplayFor(x=>x.ReceiverMail)</strong>
+                                </h6>
+                                <br />
+                                <br />
+                                <br />
+                                <p>@Html.DisplayFor(x => x.MessageContent).    </p>
+
+                                <p>Teşerkkürler,<br>@Html.DisplayFor(x => x.SenderMail)</p>
+                            </div>
+
+                            <div class="mailbox-read-message">
+
+                            </div>
+                            <!-- /.mailbox-read-message -->
+                        </div>
+
+                        <!-- /.card-footer -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col -->
+            </div>
+        </div>
+        <!-- /.row -->
+    </section>
+</body>
+</html>
+

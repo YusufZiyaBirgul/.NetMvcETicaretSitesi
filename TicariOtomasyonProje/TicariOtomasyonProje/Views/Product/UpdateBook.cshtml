@@ -1,0 +1,37 @@
+﻿@model EntityLayer.Concrate.Book
+@{
+    ViewBag.Title = "UpdateBook";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 style="text-align:center">Kitap Bilgilerini Güncelleme</h2>
+@using (Html.BeginForm("UpdateBook", "Product", FormMethod.Post))
+{
+    <div class="form-group">
+
+        @Html.HiddenFor(x => x.BookID, new { @class = "form-control" })
+
+        @Html.Label("Kitap Ad")
+        @Html.TextBoxFor(x => x.BookName, new { @class = "form-control" })
+
+        @Html.Label("Resim")
+        @Html.TextBoxFor(x => x.BookImage, new { @class = "form-control" })
+
+        @Html.Label("Stok")
+        @Html.TextBoxFor(x => x.Inverntory, new { @class = "form-control" })
+
+        @Html.Label("Alış Fiyat")
+        @Html.TextBoxFor(x => x.PurchasePrice, new { @class = "form-control" })
+
+        @Html.Label("Satış Fiyat")
+        @Html.TextBoxFor(x => x.SalePrice, new { @class = "form-control" })
+
+        @Html.Label("Yayınevi")
+        @Html.TextBoxFor(x => x.Publisher.PublisherID, new { @class = "form-control" })
+
+        @Html.Label("Kategori")
+        @Html.TextBoxFor(x => x.Category.CategoryID, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-outline-info">Bilgileri Güncelle</button>
+    </div>
+}

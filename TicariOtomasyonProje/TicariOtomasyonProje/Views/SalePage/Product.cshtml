@@ -1,0 +1,41 @@
+﻿@using EntityLayer.Concrate
+@model List<Book>
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_BookLayout.cshtml";
+}
+
+<link href="~/SellMenuCss/SellMenuCard.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    @foreach (var item in Model)
+    {
+        <div class="wrapperC">
+            <div class="card front-face">
+                <img src="~/Resimler/Metro2033.jpg">
+               
+            </div>
+            <div class="card back-face">
+                
+                <img src="~/Resimler/Metro2033.jpg">
+                <div class="infoC">
+                    <div class="titleC">
+                        @item.BookName
+                    </div>
+                    <p>
+                        Fiyat:@item.SalePrice <br>Yayınevi:@item.PublisherName
+                    </p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa fa-book" style="font-size:25px" ;></i></a>
+                        <a href="~/BuyPage/Buy"><i class="fa fa-shopping-cart" style="font-size:25px" ;></i></a>
+                    </li>
+                </ul>
+                
+
+            </div>
+        </div>
+    }
+

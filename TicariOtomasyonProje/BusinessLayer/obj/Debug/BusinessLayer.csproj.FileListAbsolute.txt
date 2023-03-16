@@ -1,0 +1,28 @@
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\BusinessLayer\obj\Debug\BusinessLayer.pdb

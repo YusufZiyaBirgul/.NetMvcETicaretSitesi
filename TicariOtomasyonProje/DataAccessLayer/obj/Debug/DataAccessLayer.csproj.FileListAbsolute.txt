@@ -1,0 +1,60 @@
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_sales.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_personel_adres.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_adres_mig.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_book.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_book2.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_book3.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.admig_message.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_message.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_contact.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.customer_adress_mig.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_order.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.a.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_fk_mig.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_cn.resources
+C:\Users\yusuf\Desktop\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_author.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_sales.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_personel_adres.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_adres_mig.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_book.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_book2.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_book3.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.admig_message.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_message.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_mig_contact.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.customer_adress_mig.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_order.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.a.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_fk_mig.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_cn.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_author.resources
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\yusuf\Desktop\Proje-Kod Dosyaları\MVC Ticari Otomasyon\TicariOtomasyonProje\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

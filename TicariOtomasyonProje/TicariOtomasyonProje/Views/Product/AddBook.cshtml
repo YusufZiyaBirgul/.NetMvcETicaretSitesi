@@ -1,0 +1,47 @@
+﻿@model EntityLayer.Concrate.Book
+@{
+    ViewBag.Title = "AddBook";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+    <h2 style="text-align:center">Kitap Ekle</h2>
+
+@using (Html.BeginForm("AddBook", "Product", FormMethod.Post))
+{
+<div class="form-group">
+
+    @Html.Label("Kitap Ad")
+    @Html.TextBoxFor(x => x.BookName, new { @class = "form-control" })
+
+
+    @Html.Label("Kitap Resim")
+    @Html.TextBoxFor(x => x.BookImage, new { @class = "form-control" })
+
+
+    @Html.Label("Stok")
+    @Html.TextBoxFor(x => x.Inverntory, new { @class = "form-control" })
+
+
+    @Html.Label("Alış Fiyat")
+    @Html.TextBoxFor(x => x.PurchasePrice, new { @class = "form-control" })
+
+
+    @Html.Label("Satış Fiyat")
+    @Html.TextBoxFor(x => x.SalePrice, new { @class = "form-control" })
+
+
+    @Html.Label("Yayınevi")
+    @Html.TextBoxFor(x => x.Publisher.PublisherID, new { @class = "form-control" })
+
+
+    @Html.Label("Kitap Kategori")
+    @Html.TextBoxFor(x => x.Category.CategoryID, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Kitap Yazar")
+    @Html.TextBoxFor(x => x.Author.AuthorID, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-info">Kitap Ekle</button>
+</div>
+}

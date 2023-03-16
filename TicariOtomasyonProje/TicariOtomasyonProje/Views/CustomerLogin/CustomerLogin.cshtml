@@ -1,0 +1,96 @@
+﻿
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CustomerLogin</title>
+    <link href="~/DenemeMenü/LoginCss.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">
+                Giriş Formu
+            </div>
+            <div class="title signup">
+                Kayıt Formu
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Giriş Yap</label>
+                <label for="signup" class="slide signup">Kayıt Ol</label>
+                <div class="slider-tab"></div>
+            </div>
+
+            <div class="form-inner">
+                <form action="#" class="login">
+                    @using (Html.BeginForm("CustomerLogin", "CustomerLogin", FormMethod.Post))
+                    {
+                        <div class="field">
+                            <input type="text" placeholder="Kullanıcı Adı" required>
+                        </div>
+                        <div class="field">
+                            <input type="password" placeholder="Şifre" required>
+                        </div>
+                        <div class="pass-link">
+                            <a href="#">Şifremi Unuttum</a>
+                        </div>
+                        <div class="field btn">
+                            <div class="btn-layer"></div>
+                            <input type="submit" value="Giriş Yap" onclick="location.href='@Url.Action("Deneme", "SalePage" )'">
+
+                        </div>
+                        <div class="signup-link">
+                            Hala Üye Değilmisin? <a href="">Üye Ol</a>
+                        </div>
+
+                    }
+
+                </form>
+
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="text" placeholder="Kullanıcı Adı" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Şifre" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Şifre" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Kayıt Ol">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        const loginText = document.querySelector(".title-text .login");
+        const loginForm = document.querySelector("form.login");
+        const loginBtn = document.querySelector("label.login");
+        const signupBtn = document.querySelector("label.signup");
+        const signupLink = document.querySelector("form .signup-link a");
+        signupBtn.onclick = (() => {
+            loginForm.style.marginLeft = "-50%";
+            loginText.style.marginLeft = "-50%";
+        });
+        loginBtn.onclick = (() => {
+            loginForm.style.marginLeft = "0%";
+            loginText.style.marginLeft = "0%";
+        });
+        signupLink.onclick = (() => {
+            signupBtn.click();
+            return false;
+        });
+    </script>
+
+</body>
+</html>

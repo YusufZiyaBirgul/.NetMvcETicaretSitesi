@@ -1,0 +1,42 @@
+﻿@using EntityLayer.Concrate
+@model List<Book>
+@{
+    ViewBag.Title = "GetProductList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h3 style="text-align:center">Kitaplar</h3>
+<br />
+<table class="table table-hover">
+    <tr >
+        <th>#</th>
+        <th>Kitap Ad</th>
+        <th>Kitap Resim</th>
+        <th>Stok</th>
+        <th>Satış Fiyatı</th>
+        <th>Alış Fiyatı</th>
+        <th>Yayınevi</th>
+        <th>Kategori</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.BookID</td>
+            <td>@item.BookName</td>
+            <td>ÇoK YaKıNdA</td>
+            @*<td>@item.BookImage</td>*@
+            <td>@item.Inverntory</td>
+            <td>@item.PurchasePrice</td>
+            <td>@item.SalePrice</td>
+            <td>@item.Publisher.PublisherName</td>
+            <td>@item.Category.CategoryName</td>
+
+            <td><a href="/Product/UpdateBook/@item.BookID" class="btn btn-outline-success">Bilgileri Güncelle</a></td>
+            <td><a href="/Product/DeleteBook/@item.BookID" class="btn btn-outline-danger" onclick="return confirm('Silmek İstediğinize Eminmisiniz?')">Kitabı Sil</a></td>
+        </tr>
+    }
+</table>
+<a href="/Product/AddBook" class="btn btn-outline-info">Kitap Ekle</a>

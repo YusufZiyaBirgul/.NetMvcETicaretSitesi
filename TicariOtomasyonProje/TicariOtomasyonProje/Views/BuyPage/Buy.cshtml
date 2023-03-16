@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Buy";
+    Layout = "~/Views/Shared/_BookLayout.cshtml";
+}
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ödeme Sayfası</title>
+    <link href="~/SellMenuCss/BuyMenuCss.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <form>
+        <div class="row">
+            <div class="col">
+                <h3 class="title">Kişisel Bilgiler</h3>
+                <div class="inputBox">
+                    <span>İsim:</span>
+                    <input type="text" placeholder="İsim" />
+                </div>
+
+                <div class="inputBox">
+                    <span>E-mail:</span>
+                    <input type="email" placeholder="E-mail" />
+                </div>
+
+                <div class="inputBox">
+                    <span>Adres:</span>
+                    <input type="text" placeholder="Adres" />
+                </div>
+
+                <div class="inputBox">
+                    <span>İl:</span>
+                    <input type="text" placeholder="İl" />
+                </div>
+
+                <div class="inputBox">
+                    <span>İlçe:</span>
+                    <input type="text" placeholder="İlçe" />
+                </div>
+
+                <div class="inputBox">
+                    <span>Posta Kodu:</span>
+                    <input type="text" placeholder="Posta Kodu" />
+                </div>
+
+            </div>
+            <div class="col">
+                <h3 class="title">Kart Bilgileri</h3>
+                <div class="inputBox">
+                    <span>Kartlar</span>
+                    <img src="~/Resimler/card_img.png" alt="#"/>
+                </div>
+                <div class="inputBox">
+                    <span>Kartın Üzerinde Yazan İsim:</span>
+                    <input type="text" placeholder="İsim" />
+                </div>
+
+                <div class="inputBox">
+                    <span>Kart Numarası:</span>
+                    <input type="text" placeholder="Kart Numarası" />
+                </div>
+
+                <div class="inputBox">
+                    <span>Son Kullanım Ayı:</span>
+                    <input type="text" placeholder="Son Kullanım Ayı" />
+                </div>
+
+                <div class="inputBox">
+                    <span>Son Kullanım Yılı:</span>
+                    <input type="number" placeholder="Son Kullanım Yılı" />
+                </div>
+
+                <div class="inputBox">
+                    <span>CVV:</span>
+                    <input type="number" placeholder="CVV" />
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <input type="submit" value="Satın Al" class="submit-btn">
+    </form>
+ 
+</div>    
+</body>
+</html>

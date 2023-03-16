@@ -1,0 +1,49 @@
+﻿.div-basket {
+    margin-top: 150px;
+    width: 90%;
+    height: 450px;
+    margin-left: 100px;
+    text-align: center;
+    
+}
+
+.tablo-basket {
+    border-collapse: collapse;
+    width: 90%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+    .tablo-basket td, th {
+        border: 1px solid grey;
+        text-align: center;
+    }
+
+    .tablo-basket td {
+        width: 50px;
+        margin: auto;
+        position: relative;
+        color: darkred;
+    }
+
+    .tablo-basket th {
+        background-color: lightgrey;
+        color: black;
+    }
+
+    .tablo-basket input {
+        width: 45px;
+        margin-left: 20%;
+    }
+
+    .tablo-basket td basket-button {
+        width: 10px;
+        height: 10px;
+        left: 100px;
+        bottom: 50px;
+        position: absolute;
+    }

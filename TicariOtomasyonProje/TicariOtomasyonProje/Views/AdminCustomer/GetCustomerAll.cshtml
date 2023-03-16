@@ -1,0 +1,28 @@
+﻿@using EntityLayer.Concrate
+@model List<Customer>
+@{
+    ViewBag.Title = "GetCustomerAll";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2 style="text-align:center">Müşteriler</h2>
+<table class="table table-hover">
+    <tr>
+        <th>#</th>
+        <th>Müşteri Ad Soyad</th>
+        <th>Müşteri Adres</th>
+        <th>Sipariş</th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CustomerID</td>
+            <td>@item.CustomerName </td>
+            <td> @item.CustomerSurname</td>
+            
+            <td><a class="btn btn-outline-primary" style="color:springgreen">Sipariş Detay</a></td>
+        </tr>
+    }
+</table>
+   

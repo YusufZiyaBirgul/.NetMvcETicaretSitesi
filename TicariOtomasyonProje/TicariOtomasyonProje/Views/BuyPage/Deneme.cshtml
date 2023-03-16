@@ -1,0 +1,205 @@
+﻿
+@model TicariOtomasyonProje.Models.SalePageModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Deneme</title>
+    <link href="~/DenemeMenü/NavBarCss2.css" rel="stylesheet" />
+    <link href="~/DenemeMenü/NavBarCss.css" rel="stylesheet" />
+    <link href="~/DenemeMenü/SellCss.css" rel="stylesheet" />
+    <link href="~/DenemeMenü/SectionCss.css" rel="stylesheet" />
+    <link href="~/DenemeMenü/FooterCss.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link href="~/SonDenemeCSS/stylee.css" rel="stylesheet" />
+    <link href="~/SonDenemeCSS/stylee-prefix.css" rel="stylesheet" />
+    <script src="~/SonDenemeCSS/script.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/SonDenemeCSS/contact.css" rel="stylesheet" />
+    <script src="~/SonDenemeCSS/contact.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav">
+            <img src="~/Resimler/lospoloshermanos3.jpg" class="brand-logo" alt=""><a href="/SalePage/Deneme"></a>
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="search brand, product">
+                    <button class="search-btn">search</button>
+                </div>
+                <a href="#"><img src="img/user.png" alt=""></a>
+                <a href="#"><img src="img/cart.png" alt=""></a>
+            </div>
+        </div>
+        <ul class="links-container">
+            <li class="link-item"><a href="#" class="link">Ana Sayfa</a></li>
+            <li class="link-item"><a href="#" class="link">Aksiyon</a></li>
+            <li class="link-item"><a href="#" class="link">Bilimkurgu</a></li>
+            <li class="link-item"><a href="#" class="link">Efsane</a></li>
+            <li class="link-item"><a href="#" class="link">Hikaye</a></li>
+
+
+        </ul>
+
+
+
+    </nav>
+
+
+    <section class="product-details">
+        @foreach (var item in Model.Book)
+        {
+            <div class="image-slider">
+                <div class="product-images">
+                    <img src="img/product image 1.png" class="active" alt="">
+                    <img src="img/product image 2.png" alt="">
+                    <img src="img/product image 3.png" alt="">
+                    <img src="img/product image 4.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="details">
+                <h2 class="product-brand">@item.BookName</h2>
+                <p class="product-short-des">@item.Category.CategoryName</p>
+                <p class="product-short-des">@item.Publisher.PublisherName</p>
+                <span class="product-price">₺ @item.SalePrice</span>
+                <span class="product-actual-price">₺ @item.SalePrice</span>
+                <span class="product-discount">(@item.PurchasePrice )</span>
+
+                <p class="product-sub-heading">Kitap Hakkında</p>
+
+                <p class="des">Lorem ipsum sit amet consectetur adipisicing elit.</p>
+
+                <button class="btn cart-btn" onclick="location.href='@Url.Action("Buy", "BuyPage" )'">Satın Al</button>
+                <button class="btn">İstek Listesine Ekle</button>
+            </div>
+        }
+
+    </section>
+
+    <section class="detail-des">
+        <h2 class="heading">Kitabın Özeti</h2>
+        <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ......</p>
+    </section>
+
+
+    <div class="product-box">
+        <div class="product-main">
+
+            <h2>Benzer Kategori</h2>
+
+            <div class="product-grid">
+                @foreach (var item in Model.Book)
+                {
+                    <div class="showcase">
+
+                        <div class="showcase-banner">
+
+                            @*<img src="~/Resimler/Metro2033.jpg" width="300" class="product-img default">*@
+                            @*<img src="./assets/images/products/jacket-4.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img hover">*@
+
+
+
+                            <div class="showcase-actions">
+
+                                <button class="btn-action" onclick="location.href='@Url.Action("AddBasket", "ProductBasket" )'">
+                                    <ion-icon name="cart-outline"></ion-icon>
+                                </button>
+
+
+
+                                <button class="btn-action" onclick="location.href = '@Url.Action("Deneme", "BuyPage" )/@item.BookID'">
+                                    <ion-icon name="bag-add-outline"></ion-icon>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="showcase-content">
+
+                            <a href="#" class="showcase-category">@item.Category.CategoryName</a>
+
+                            <a href="/BuyPage/Deneme/@item.BookID">
+                                <h3 class="showcase-title">@item.BookName</h3>
+                            </a>
+
+
+
+                            <div class="price-box">
+                                <p class="price">@item.PurchasePrice</p>
+                                <del>@item.SalePrice</del>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <img src="img/light-logo.png" class="logo" alt="">
+            @foreach (var item in Model.Book)
+            {
+                <div class="footer-ul-container">
+                    <ul class="category">
+                        <li class="category-title">@item.Category</li>
+                        <li><a href="#" class="footer-link">@item.BookName</a></li>
+                    </ul>
+
+                </div>
+            }
+        </div>
+
+
+
+
+
+    </footer>
+
+
+
+    <footer>
+        <p class="footer-title">Hakkımızda</p>
+        <p class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat tempore ad suscipit, eos eius quisquam sed optio nisi quaerat fugiat ratione et vero maxime praesentium, architecto minima reiciendis iste quo deserunt assumenda alias ducimus. Ullam odit maxime id voluptates rerum tenetur corporis laboriosam! Cum error ipsum laborum tempore in rerum necessitatibus nostrum nobis modi! Debitis adipisci illum nemo aperiam sed, et accusamus ut officiis. Laborum illo exercitationem quo culpa reprehenderit excepturi distinctio tempore cupiditate praesentium nisi ut iusto, assumenda perferendis facilis voluptas autem fuga sunt ab debitis voluptatum harum eum. Asperiores, natus! Est deserunt incidunt quasi placeat omnis, itaque harum?</p>
+        <p class="info">support emails - help@clothing.com, customersupport@clothing.com</p>
+        <p class="info">telephone - 180 00 00 001, 180 00 00 002</p>
+        <div class="footer-social-container">
+            <div>
+                <a href="#" class="social-link">terms & services</a>
+                <a href="#" class="social-link">privacy page</a>
+            </div>
+            <div>
+                <a href="#" class="social-link">instagram</a>
+                <a href="#" class="social-link">facebook</a>
+                <a href="#" class="social-link">twitter</a>
+            </div>
+        </div>
+        <p class="footer-credit">Clothing, Best apparels online store</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+﻿@using EntityLayer.Concrate
+@model List<Personnel>
+@{
+    ViewBag.Title = "PersonelGetList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+
+
+<br />
+<h2 style="text-align:center">Personeller</h2>
+<br />
+<table class="table table-hover">
+    <tr>
+        <th>#</th>
+        <th> Ad Soyad</th>
+        <th> TC</th>
+        <th> Adres</th>
+        <th>Roller</th>
+        <th>Bilgileri Güncelle</th>
+        <th>Personeli Sil</th>
+        <th></th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.PersonelID</th>
+            <td>@item.PersonelName @item.PersonelSurname</td>
+            <td>@item.PersonelTC</td>
+            <td>@item.AddressDetails</td>
+            <td>@item.PersonelRole</td>
+            <td><a href="/Personnel/UpdatePersonnel/@item.PersonelID" class="btn btn-outline-success">Bilgileri Güncelle</a></td>
+
+            @*<td>
+                <button class="btn btn-outline-danger" id="alert" onclick="location.href = '@Url.Action("DeletePersonnel", "Personnel" )/@item.PersonelID'">Personeli Sil</button>
+                <script>
+                    $('#alert').click(function () {
+                        swal({
+                            title: "Are you sure?",
+                            text: "Once deleted, you will not be able to recover this imaginary file!",
+                            icon: "warning",
+                            buttons: true,
+                            dangerMode: true,
+                        })
+                            .then((willDelete) => {
+                                if (willDelete) {
+                                    swal("Poof! Your imaginary file has been deleted!", {
+                                        icon: "success",
+                                    });
+                                } else {
+                                    swal("Your imaginary file is safe!");
+                                }
+                            });
+                    });
+                </script>
+            </td>*@
+           
+            <td><a href="/Personnel/DeletePersonnel/@item.PersonelID" class="btn btn-outline-danger" onclick="return confirm('Silmek İsteğinize Eminmisiniz');">Personel Sil </a></td>
+        </tr>
+
+    }
+
+</table>
+
+<a href="/Personnel/AddPersonnel" class="btn btn-outline-dark">Personel Ekle</a>
+
+
+<script>
+    document.getElementById('updateDetails')
+        .addEventListener('click', function () {
+            alert('button clicked');
+        });
+</script>
+
+
+
+
+
+
